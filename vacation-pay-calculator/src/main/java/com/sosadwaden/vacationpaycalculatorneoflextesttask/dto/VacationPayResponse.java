@@ -8,6 +8,7 @@ import java.math.BigDecimal;
 @Getter
 @Setter
 @RequiredArgsConstructor
+@AllArgsConstructor
 @Builder
 @FieldDefaults(level = AccessLevel.PRIVATE)
 public class VacationPayResponse {
