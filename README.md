@@ -1,7 +1,6 @@
 # vacation-pay-calculator-TestTask
 Тестовое задание для учебного центра Neoflex, 2024
-___
-## Техническое задание: 
+## Техническое задание
 Приложение "Калькулятор отпускных".
 Микросервис на SpringBoot + Java 11 c одним API:
 GET "/calculacte"
@@ -10,7 +9,6 @@ GET "/calculacte"
 Доп. задание: При запросе также можно указать точные дни ухода в отпуск, тогда должен проводиться рассчет отпускных с учётом праздников и выходных.
 
 Проверяться будет чистота кода, структура проекта, название полей\классов, правильность использования паттернов. Желательно написание юнит-тестов, проверяющих расчет.
-___
 ## Используемые технологии
 Java 17 <br/>
 SpringBoot <br/>
@@ -18,7 +16,6 @@ SpringMVC <br/>
 jUnit <br/>
 MockMvc <br/>
 Docker
-___
 ## API
 Запрос со средней зарплатой и количеством дней отпуска: <br/>
 http://localhost:7070/calculate?vacationDays=28&averageSalary=40000 <br/>
@@ -39,7 +36,6 @@ http://localhost:7070/calculate?vacationDays=28&startDateOfVacation=2024-01-01&e
 }</pre>
 <br/>
 
-___
 ## Docker
 Собрать проект:
 ```java
@@ -60,6 +56,9 @@ docker run -p 7070:8080 vacation-pay-calculator
 ```dockerfile
 docker stop vacation-pay-calculator
 ```
-___
 ## Postman
 Запрос со средней зарплатой и количеством дней отпуска: <br/>
+![request1](https://github.com/sosadwaden/vacation-pay-calculator-TestTask/assets/106944660/ed48e562-be8a-4c95-9d22-0fb2d570e5ef)
+Запрос со средней зарплатой и датами отпуска: <br/>
+![request2](https://github.com/sosadwaden/vacation-pay-calculator-TestTask/assets/106944660/8ac0ae1c-9a30-4d33-a185-4d4ee4fbae67)
+
