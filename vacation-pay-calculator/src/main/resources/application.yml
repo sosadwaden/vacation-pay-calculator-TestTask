@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: VacationPayCalculatorNeoflexTestTask
+
+server:
+  port: 7070
+
+application:
+  endpoint:
+    calculate: "/calculate"
