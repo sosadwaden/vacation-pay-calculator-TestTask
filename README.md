@@ -15,6 +15,7 @@ SpringBoot <br/>
 SpringMVC <br/>
 jUnit <br/>
 MockMvc <br/>
+Swagger <br/>
 Docker
 ## API
 Запрос со средней зарплатой и количеством дней отпуска: <br/>
@@ -56,6 +57,12 @@ docker run -p 7070:8080 vacation-pay-calculator
 ```dockerfile
 docker stop vacation-pay-calculator
 ```
+## Swagger документация
+Swagger-ui: <br/>
+http://localhost:7070/swagger-ui/index.html
+
+Api docs: <br/>
+http://localhost:7070/v3/api-docs
 ## Postman
 Запрос со средней зарплатой и количеством дней отпуска: <br/>
 ![request1](https://github.com/sosadwaden/vacation-pay-calculator-TestTask/assets/106944660/ed48e562-be8a-4c95-9d22-0fb2d570e5ef)
