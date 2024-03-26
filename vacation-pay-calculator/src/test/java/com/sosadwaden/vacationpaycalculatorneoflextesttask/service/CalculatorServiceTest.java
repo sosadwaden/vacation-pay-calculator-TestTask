@@ -33,7 +33,6 @@ public class CalculatorServiceTest {
     }
 
     @Test
-    //@DisplayName("The test checks vacation pay with an average salary for the year and vacation days")
     void getVacationPayCalculationTest() {
         BigDecimal actualVacationPay = calculatorService.getVacationPayCalculation(averageSalaryPerYearTest, vacationDaysTest).getVacationPay();
         assertEquals(BigDecimal.valueOf(33256.32), actualVacationPay);

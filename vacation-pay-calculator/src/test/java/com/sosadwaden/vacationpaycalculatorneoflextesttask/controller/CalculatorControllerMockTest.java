@@ -4,6 +4,8 @@ import com.sosadwaden.vacationpaycalculatorneoflextesttask.dto.VacationPayRespon
 import com.sosadwaden.vacationpaycalculatorneoflextesttask.service.CalculatorServiceImpl;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -34,6 +36,16 @@ class CalculatorControllerMockTest {
 
     @MockBean
     CalculatorServiceImpl calculatorService;
+
+    @BeforeEach
+    void beforeEach() {
+        log.info("Test start");
+    }
+
+    @AfterEach
+    void afterEach() {
+        log.info("Test end");
+    }
 
     @Test
     @ApiOperation(value = "Test for calculating the amount of vacation pay, knowing the average salary and the number of vacation days")
