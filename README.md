@@ -60,12 +60,14 @@ docker stop vacation-pay-calculator
 ## Swagger документация
 Swagger-ui: <br/>
 http://localhost:7070/swagger-ui/index.html
+![swaggerui](https://github.com/sosadwaden/vacation-pay-calculator-TestTask/assets/106944660/940122d5-8658-4839-ba45-881ad7f6dbce)
 
 Api docs: <br/>
 http://localhost:7070/v3/api-docs
+![apidocs](https://github.com/sosadwaden/vacation-pay-calculator-TestTask/assets/106944660/ccd01d56-b184-4436-8149-976c61bdfa71)
+
 ## Postman
 Запрос со средней зарплатой и количеством дней отпуска: <br/>
 ![request1](https://github.com/sosadwaden/vacation-pay-calculator-TestTask/assets/106944660/ed48e562-be8a-4c95-9d22-0fb2d570e5ef)
 Запрос со средней зарплатой и датами отпуска: <br/>
 ![request2](https://github.com/sosadwaden/vacation-pay-calculator-TestTask/assets/106944660/8ac0ae1c-9a30-4d33-a185-4d4ee4fbae67)
-
