@@ -10,13 +10,14 @@ GET "/calculacte"
 
 Проверяться будет чистота кода, структура проекта, название полей\классов, правильность использования паттернов. Желательно написание юнит-тестов, проверяющих расчет.
 ## Используемые технологии
-Java 17 <br/>
-SpringBoot <br/>
-SpringMVC <br/>
-jUnit <br/>
-MockMvc <br/>
-Swagger <br/>
-Docker
++ **Java 17** <br/>
++ **Maven** <br/>
++ **SpringBoot** <br/>
++ **SpringMVC** <br/>
++ **jUnit** <br/>
++ **MockMvc** <br/>
++ **Swagger** <br/>
++ **Docker**
 ## API
 Запрос со средней зарплатой и количеством дней отпуска: <br/>
 http://localhost:7070/calculate?vacationDays=28&averageSalary=40000 <br/>
